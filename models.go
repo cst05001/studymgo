@@ -12,3 +12,8 @@ type MapReduceResult struct {
 		Count int64 "count"
 	} "value"
 }
+
+type Category struct {
+	Id       string   "_id"
+	Children []string "children"
+}
